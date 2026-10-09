@@ -1,0 +1,25 @@
+# Srodowisko wirtualne
+.venv/
+venv/
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.py[cod]
+
+# Pliki lokalnej konfiguracji
+.env
+
+# Pliki PyCharma
+.idea/
+
+# Zapisane modele
+models/*
+!models/.gitkeep
+
+# Lokalne zbiory danych
+data/*
+!data/.gitkeep
+
+# Pliki tymczasowe
+*.log
+.pytest_cache/
